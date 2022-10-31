@@ -7,3 +7,92 @@
   color: #101828;
   background-color: #FFFFFF;
 }
+
+.App{
+  margin: 0% 6%;
+}
+
+.profile_img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 88px;
+  height: 88px;
+  border-radius: 275px;
+}
+
+.profile_name{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.links > a{
+  padding: 24px 32px;
+  text-decoration: none;
+}
+
+.links > a > button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  height: 68px;
+  width: 100%;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-bottom: 64px;
+}
+
+.slack_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.github_icon {
+  width: 24px;
+  height: 24px;
+  color: #000000;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px opx;
+  gap: 64px;
+}
+
+.hng{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: #667085;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}

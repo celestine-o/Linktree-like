@@ -5,7 +5,7 @@ export default function Link() {
     return(
         <section className="links">
             <a href="https://twitter.com/Styne001">
-                <button id="twitter">Twitter Link</button>
+                <button id="twitter_btn">Twitter Link</button>
             </a>
             <a href="https://training.zuri.team">
                 <button id="btn_zuri">Zuri Team</button>

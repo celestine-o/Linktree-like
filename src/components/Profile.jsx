@@ -6,10 +6,10 @@ import {GoMarkGithub} from "react-icons/go";
 import Desktop_share from "/src/assets/share_button.png"
 import Mobile_share from "/src/assets/mobile_share_button.png"
 
-export default function Main() {
+export default function Profile() {
 
     return(
-        <div className="main">
+        <div className="profile">
             <img src={window.innerWidth > 500 ? Desktop_share : Mobile_share} alt="" className="share_button" />
             <section className="profile">
                 <img src={profile_img} alt="profile image" className="profile_img" id="profile_img"/>

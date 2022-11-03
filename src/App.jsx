@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "./components/Footer";
-import Main from "./components/Main";
+import Profile from "./components/Profile";
 
 function App() {
 
   return (
     <div className="App">
-      <Main />
+      <Profile />
       <Footer />
     </div>
   )
